@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assetgraph</title>
+
+    <link rel="stylesheet" href="/assets/style/main.css">
+</head>
+<body>
+
+    <div class="page abscenter">
+        <h1><a href="https://github.com/assetgraph/"><span class="title-primary">ASSET</span><wbr><span class="title-secondary">GRAPH</span></a></h1>
+
+        <p>Work like the web</p>
+
+        <a href="https://github.com/assetgraph/" class="logo-splash"></a>
+    </div>
+
+    <script type="text/javascript">
+
+        // Hack for updating viewport relative font sizes on resize
+        window.onresize = function() {
+            var selectors = ['h1', 'p'];
+
+            selectors.forEach(function (selector) {
+                Array.prototype.forEach.call(document.querySelectorAll(selector), function (el) {
+                    el.style.zIndex = 1;
+                });
+            });
+        }
+    </script>
+
+</body>
+</html>
